@@ -1,0 +1,35 @@
+/* Global theme colors */
+:root {
+  --primary: #0ea5e9;      /* Solar Blue */
+  --secondary: #f59e0b;    /* Solar Yellow */
+  --dark: #0f172a;         /* Navy Dark */
+  --light: #f8fafc;        /* Off White */
+}
+
+/* Section default padding */
+.section-padding {
+  @apply py-16 px-4 md:px-10 lg:px-20;
+}
+
+/* Container width */
+.container-custom {
+  @apply max-w-7xl mx-auto w-full;
+}
+
+/* Reusable heading */
+.section-title {
+  @apply text-3xl md:text-4xl font-bold text-white mb-6;
+}
+
+/* Paragraph style */
+.section-text {
+  @apply text-lg text-gray-300 leading-relaxed;
+}
+
+/* Glass effect card */
+.glass-card {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  @apply rounded-xl p-6 shadow-lg;
+}
