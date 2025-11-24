@@ -40,7 +40,7 @@ const Navbar = () => {
           {/* LOGO */}
           <Link to="/" className="flex items-center gap-3">
             <img
-              src="/public/logo.jpeg"
+              src="/logo.jpeg"
               alt="Radhika SolarTech"
               className="w-10 h-10 object-contain"
             />
@@ -143,3 +143,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
