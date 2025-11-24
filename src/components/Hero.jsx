@@ -10,7 +10,7 @@ export default function Hero() {
 
       {/* Background Image */}
       <img
-        src="/public/hero-bg.jpg"
+        src="/hero-bg.jpg"
         alt="Solar Panels Background"
         className="absolute inset-0 w-full h-full object-cover opacity-55"
       />
@@ -88,3 +88,4 @@ export default function Hero() {
     </section>
   );
 }
+
